@@ -18,12 +18,16 @@ body {
   .main {
     padding-bottom: 60px;
   }
+  .gojuuon {
+    font-size: 30px;
+    line-height: 50px;
+  }
   .recorder {
     background-color: #04AA6D; /* Green */
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 30px;
+    padding: 60px;
   }
   .recorder.recording {
     background-color: red;
