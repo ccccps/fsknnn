@@ -16,11 +16,11 @@ body {
 
 @media screen and (max-width: 1200px) {
   .main {
-    padding-left: 120px;
+    margin-left: 80px;
   }
   .gojuuon {
     font-size: 30px;
-    line-height: 70px;
+    line-height: 1.5;
   }
   .recorder {
     background-color: #04AA6D; /* Green */
