@@ -14,7 +14,7 @@ body {
   line-height: 150%;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1200px) {
   .main {
     padding-bottom: 60px;
   }
