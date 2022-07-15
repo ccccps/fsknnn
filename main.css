@@ -20,12 +20,13 @@ body {
   }
   .gojuuon {
     font-size: 30px;
-    line-height: 1.5;
+    line-height: 2;
   }
   .recorder {
     background-color: #04AA6D; /* Green */
     position: fixed;
-    bottom: 0;
+    left: 0;
+    top: 0;
     height: 100%;
     padding: 60px;
   }
