@@ -16,10 +16,11 @@ body {
 
 @media screen and (max-width: 1200px) {
   .main {
-    margin-left: 80px;
+    padding-left: 80px;
+    padding-bottom: 500px;
   }
   .gojuuon {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 2;
   }
   .recorder {
