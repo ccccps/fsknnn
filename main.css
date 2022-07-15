@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+}
+
+.gojuuon {
+  font-size: 120%;
+  line-height: 180%;
+}
+
+.hassei {
+  font-size: 100%;
+  line-height: 150%;
+}
+
+.recorder {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
