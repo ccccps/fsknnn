@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <div class="gojuuon">
+    <div class="main gojuuon">
       <div onclick="playAudio('audio/あめんぼあかいなアイウエオ.mp3')">あめんぼ　あかいな　アイウエオ</div>
       <div onclick="playAudio('audio/うきもにこえびもおよいでる.mp3')">うきもに　こえびも　およいでる</div>
       <div onclick="playAudio('audio/かきのきくりのきカキクケコ.mp3')">かきのき　くりのき　カキクケコ</div>
@@ -28,7 +28,6 @@
       <div onclick="playAudio('audio/わいわいわっしょいワイウエヲ.mp3')">わいわい　わっしょい　ワイウエヲ</div>
       <div onclick="playAudio('audio/うえきやいどがえおまつりだ.mp3')">うえきや　いどがえ　おまつりだ</div>
     </div>
-    <div class="recorder" onclick="start()"></div>
-    <div class="recorder" onclick="stop()"></div>
+    <div class="recorder" onclick="recordPlay(event, this)"></div>
   </body>
 </html>
