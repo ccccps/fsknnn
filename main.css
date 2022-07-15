@@ -14,15 +14,18 @@ body {
   line-height: 150%;
 }
 
-.recorder {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 50%;
+@media screen and (max-width: 540px) {
+  .main {
+    padding-bottom: 60px;
+  }
+  .recorder {
+    background-color: #04AA6D; /* Green */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+  }
+  .recorder.recording {
+    background-color: red;
+  }
 }
