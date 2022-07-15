@@ -31,6 +31,20 @@ speechSynthesis.addEventListener("voiceschanged", () => {
   if (googleJapanese) uttr.voice = googleJapanese
 })
 
+const RECORDING_CLASS = 'recording'
+
+function recordPlay(e, el) {
+  e.stopPropagation()
+
+  if (el.classList.contains(RECORDING_CLASS)) {
+    stop()
+    el.classList.remove(RECORDING_CLASS)
+  } else {
+    el.classList.add(RECORDING_CLASS)
+    start()
+  }
+}
+
 function start() {
   if (mediaRecorder.state === 'recording') return
   audioChunks.length = 0
